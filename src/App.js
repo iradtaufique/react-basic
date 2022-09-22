@@ -1,4 +1,7 @@
-import Todo from "./Todos";
+import Todo from "./components/Todos";
+import BackDrop from './components/Backdrop';
+import Modal from './components/Model';
+
 
 function App() {
   return (
@@ -7,7 +10,10 @@ function App() {
       <Todo text='first Todo'/>
       <Todo text='second Todo'/>
       <Todo text='third Todo'/>
-      
+
+      <Modal />
+      <BackDrop />
+
     </div>
   );
 }
