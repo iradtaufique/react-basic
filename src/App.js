@@ -1,6 +1,12 @@
+import Todo from "./Todos";
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <h1>My Todos</h1>
+      <Todo />
+    </div>
+  );
 }
 
 export default App;
